@@ -1,0 +1,13 @@
+.line {
+    margin-top: 10%;
+    margin-left: 5%;
+    border: 1px solid grey;
+    max-width: 90%;
+}
+button {
+    margin: 10px;
+    padding: 20px;
+    border-radius: 10px;
+
+}
+/* hello world*/
