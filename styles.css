@@ -1,5 +1,5 @@
 .line {
-    margin-top: 10%;
+    margin-top: 40%;
     margin-left: 5%;
     border: 1px solid grey;
     max-width: 90%;
@@ -8,7 +8,9 @@ button {
     margin: 10px;
     padding: 20px;
     border-radius: 10px;
-    color: rgb(127, 104, 243);
+    text-align: center;
+    justify-content:
+    center;
     float: left;
     width: 50%;
     height: 12%;
@@ -18,13 +20,17 @@ button {
 }
 
 h1 {
+    font-size: 60px;
+}
+
+h2 {
     font-size: 30px;
     padding: 2%;
     padding-top: 5%;
    
 }
 
-h2 {
+h3 {
     font-size: 25px;
     padding-top: 10%;
     padding-bottom: 5%;
@@ -58,4 +64,25 @@ ul {
 }
 #text-container {
     max-width: 65%;
+}
+
+.top-section {
+    height: 100px;
+    display: flex;
+   
+    /* float: right; */
+    border: 1px solid;
+}
+.top-left-section {
+    padding: 10%;
+}
+.top-right-section {
+    padding-top: 10%;
+    padding-right: 10%;
+}
+.button-inline {
+    display: flex;
+}
+star.png {
+    font-size: small;
 }
