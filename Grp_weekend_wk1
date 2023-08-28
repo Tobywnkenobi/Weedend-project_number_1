@@ -5,18 +5,125 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Bootstrap demo</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
   </head>
   <body>
-    <h1>Hello, world!</h1>
+    <!-- NAVBAR - TOBY -->
+<nav>
+    <ul class="nav" style="margin-top: 10px; width: 100%; margin-right: 5px; margin-left: 50px;">
+        <li class="nav-item">
+          <a class="nav-item" href="#"><img src="logo (1).png" class="nav" style="width: 100%; height: 100%; margin-right: 80px;">
+        </li>        
+        <li class="nav-item" style="margin-left:480px;">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Features</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Pricing</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">How it works?</a>
+        </li>
+        <li class="nav-item" style ="margin-right: 80px;">
+          <a class="nav-link" href="#">Support</a>
+        </li>
+        <li>
+            <top_buttons class="nav" style="justify-content: flex-start; margin-top: 5px; align-items: center; width: 100%;">
+              <button type="button" class="btn btn-primary btn-sm" style="align-items: center;">Sign in</button>
+              <button type="button" class="btn btn-secondary btn-sm" style="align-items: center;">Try it for free!</button>
+            </top_buttons>
+        </li>    
+        
+     
+      
+    </ul>
+  </nav>
+  </body>
+
+<!-- TOM  -->
+<main>
+<!-- 1  -->
+<div class="line">
+</div>
+
+<div class="container text-center pt-5">
+    <div class="row">
+      <div class="col">
+       <h1>How It works</h1>
+       <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beatae, autem, eligendi est, sequi commodi officia voluptate saepe nemo assumenda vitae ex sed ipsa. Molestias totam magnam voluptatum soluta fuga aliquam?</p>
+    </div>
+</div>
+<div class="row">
+    <div class="col bg-body-secondary rounded-4">
+        <img src="card-2.png" alt="img">     
+    </div>
+    <div class="col bg-primary rounded-4 text-light">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet iste, dolore animi at culpa saepe, ullam sed numquam ab nulla sequi hic repellat deleniti sit facilis rerum illum iure? Nisi!
+        <ul class="p-0 m-1">
+         <li>Lorem ipsum dolor sit amet.</li>
+         <li>Lorem ipsum dolor sit amet.</li>
+         <li>Lorem ipsum dolor sit amet.</li>
+         <li>Lorem ipsum dolor sit amet.</li>
+        </ul>
+        <button>LEARN MORE</button>
+      </div>
+
+
+
+<!-- 2 -->
+<div class="container text-center pt-5">
+    <div class="row">
+      <div class="col">
+       <h1>How It works</h1>
+       <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beatae, autem, eligendi est, sequi commodi officia voluptate saepe nemo assumenda vitae ex sed ipsa. Molestias totam magnam voluptatum soluta fuga aliquam?</p>
+      </div>
+    </div>
+    <div class="row m-3">
+        <div class="col bg-primary rounded-4 text-light">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet iste, dolore animi at culpa saepe, ullam sed numquam ab nulla sequi hic repellat deleniti sit facilis rerum illum iure? Nisi!
+            <ul class="p-0 m-1">
+                <li>Lorem ipsum dolor sit amet.</li>
+                <li>Lorem ipsum dolor sit amet.</li>
+                <li>Lorem ipsum dolor sit amet.</li>
+                <li>Lorem ipsum dolor sit amet.</li>
+               </ul>
+               <button>Learn More</button>
+        </div>
+        <div class="col bg-body-secondary rounded-4">
+          <img src="card-3.png" alt="img">     
+        </div>
+
+    </div>
+  </div>
+
+</main>
+
+
+
+                  <!-- FOOTER -->
+    <footer>
+      <div class="card" style="width: 40%; margin-left: 500px;">
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item"><p class="big font" style="font-size:xx-large;justify-content: center;">Try Double Tap Today!</p></li>
+          <li class="list-group-item"><p class="second_line" style="font-size: smaller; justify-content: center;">Let's Get Started!</p></li>
+          <li class="list-group-item" style="margin-left: 180px">
+            <button type="button" class="btn btn-primary btn-lg" style="text-align:center; float: left">Get Started &nbsp;>></button>
+            <button type="button" class="btn btn-secondary btn-lg" style="text-align:center; float: right">Chat With Us &nbsp;  <img src="chat-bubble.svg" style="width: 25px; height: 25px; justify-content: center; text-align:center;"></button>
+          </li>
+            <div class="card-footer" style="margin-left: 2px;">
+              <ul class="list-inline" style="margin-left: 2px; text-align:center">
+                <li class="list-inline-item" style="font-size: smaller;">Free 14 Day trial<n> *</n></li>
+                <li class="list-inline-item" style="font-size: smaller;">Manage customers in minutes<n> *</n></li>
+                <li class="list-inline-item" style="font-size: smaller;">Cancel at anytime</li>
+            </div>
+      </div>
+    </footer>
+
+
+
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
   </body>
 </html>
-
-                        <!-- NAVBAR -->
-
-                        <!-- kjsdfhjdsFKJSDFkjkjdfaskjdfsakjadfslkdfaskjldsfakjladsfkj
-                        p
- -->
-
-
-
